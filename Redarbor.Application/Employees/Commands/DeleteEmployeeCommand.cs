@@ -1,6 +1,6 @@
 using Dapper;
 using MediatR;
-using Redarbor.Infrastructure.Persistence;
+using Redarbor.Application.Common.Interfaces;
 
 namespace Redarbor.Application.Employees.Commands;
 
@@ -8,9 +8,9 @@ public record DeleteEmployeeCommand(int Id) : IRequest<bool>;
 
 public class DeleteEmployeeCommandHandler : IRequestHandler<DeleteEmployeeCommand, bool>
 {
-    private readonly DbConnectionFactory _connectionFactory;
+    private readonly IDbConnectionFactory _connectionFactory;
 
-    public DeleteEmployeeCommandHandler(DbConnectionFactory connectionFactory)
+    public DeleteEmployeeCommandHandler(IDbConnectionFactory connectionFactory)
     {
         _connectionFactory = connectionFactory;
     }

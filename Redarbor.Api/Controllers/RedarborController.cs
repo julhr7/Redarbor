@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using Redarbor.Application.Employees.Commands;
 using Redarbor.Application.Employees.Queries;
 using Redarbor.Domain;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Redarbor.Api.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("api/[controller]")] // Genera la ruta /api/redarbor
 public class RedarborController : ControllerBase

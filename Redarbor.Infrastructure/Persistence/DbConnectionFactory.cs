@@ -1,12 +1,13 @@
 using System.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using Redarbor.Application.Common.Interfaces;
 
 namespace Redarbor.Infrastructure.Persistence;
 
-public class DbConnectionFactory
+public class DbConnectionFactory : IDbConnectionFactory 
 {
-    private readonly string _connectionString;
+    private readonly string _connectionString;  
 
     public DbConnectionFactory(IConfiguration configuration)
     {

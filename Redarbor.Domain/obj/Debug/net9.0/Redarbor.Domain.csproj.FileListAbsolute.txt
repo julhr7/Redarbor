@@ -9,3 +9,4 @@ D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain
 D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\refint\Redarbor.Domain.dll
 D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain.pdb
 D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\ref\Redarbor.Domain.dll
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain.sourcelink.json

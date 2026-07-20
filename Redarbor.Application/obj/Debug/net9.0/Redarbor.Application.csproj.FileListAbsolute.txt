@@ -3,3 +3,14 @@ D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.A
 D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.AssemblyInfoInputs.cache
 D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.AssemblyInfo.cs
 D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.csproj.CoreCompileInputs.cache
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.sourcelink.json
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\bin\Debug\net9.0\Redarbor.Application.deps.json
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\bin\Debug\net9.0\Redarbor.Application.dll
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\bin\Debug\net9.0\Redarbor.Application.pdb
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\bin\Debug\net9.0\Redarbor.Domain.dll
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\bin\Debug\net9.0\Redarbor.Domain.pdb
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.017EFD71.Up2Date
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.dll
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\refint\Redarbor.Application.dll
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.pdb
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\ref\Redarbor.Application.dll

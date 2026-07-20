@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Redarbor.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7292acb5575f315bf5685e7d225d54fdaddcd2c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Redarbor.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Redarbor.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

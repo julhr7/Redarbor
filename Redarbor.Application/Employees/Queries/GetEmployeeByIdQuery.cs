@@ -1,7 +1,7 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Redarbor.Domain;
-using Redarbor.Infrastructure.Persistence;
+using Redarbor.Application.Common.Interfaces;
 
 namespace Redarbor.Application.Employees.Queries;
 
@@ -9,9 +9,9 @@ public record GetEmployeeByIdQuery(int Id) : IRequest<Employee?>;
 
 public class GetEmployeeByIdQueryHandler : IRequestHandler<GetEmployeeByIdQuery, Employee?>
 {
-    private readonly RedarborDbContext _context;
+    private readonly IRedarborDbContext _context;
 
-    public GetEmployeeByIdQueryHandler(RedarborDbContext context)
+    public GetEmployeeByIdQueryHandler(IRedarborDbContext context)
     {
         _context = context;
     }

@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Redarbor.Domain;
+using Redarbor.Application.Common.Interfaces;
 
 namespace Redarbor.Infrastructure.Persistence;
 
-public class RedarborDbContext : DbContext
+public class RedarborDbContext : DbContext, IRedarborDbContext
 {
     public RedarborDbContext(DbContextOptions<RedarborDbContext> options) : base(options) { }
 

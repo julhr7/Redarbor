@@ -1,7 +1,7 @@
 using Dapper;
 using MediatR;
 using Redarbor.Domain;
-using Redarbor.Infrastructure.Persistence;
+using Redarbor.Application.Common.Interfaces;
 
 namespace Redarbor.Application.Employees.Commands;
 
@@ -24,9 +24,9 @@ public record CreateEmployeeCommand(
 
 public class CreateEmployeeCommandHandler : IRequestHandler<CreateEmployeeCommand, Employee>
 {
-    private readonly DbConnectionFactory _connectionFactory;
+    private readonly IDbConnectionFactory _connectionFactory;
 
-    public CreateEmployeeCommandHandler(DbConnectionFactory connectionFactory)
+    public CreateEmployeeCommandHandler(IDbConnectionFactory connectionFactory)
     {
         _connectionFactory = connectionFactory;
     }

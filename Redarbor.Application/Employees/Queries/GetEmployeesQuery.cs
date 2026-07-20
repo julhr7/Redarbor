@@ -1,7 +1,7 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Redarbor.Domain;
-using Redarbor.Infrastructure.Persistence; // Acceso al DbContext para lectura
+using Redarbor.Application.Common.Interfaces;
 
 namespace Redarbor.Application.Employees.Queries;
 
@@ -11,9 +11,9 @@ public record GetEmployeesQuery() : IRequest<List<Employee>>;
 // Handler que procesa la consulta usando EF Core
 public class GetEmployeesQueryHandler : IRequestHandler<GetEmployeesQuery, List<Employee>>
 {
-    private readonly RedarborDbContext _context;
+    private readonly IRedarborDbContext _context;
 
-    public GetEmployeesQueryHandler(RedarborDbContext context)
+    public GetEmployeesQueryHandler(IRedarborDbContext context)
     {
         _context = context;
     }
