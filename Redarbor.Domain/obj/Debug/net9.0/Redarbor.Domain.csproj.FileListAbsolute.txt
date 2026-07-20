@@ -1,0 +1,11 @@
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\bin\Debug\net9.0\Redarbor.Domain.deps.json
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\bin\Debug\net9.0\Redarbor.Domain.dll
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\bin\Debug\net9.0\Redarbor.Domain.pdb
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain.AssemblyInfoInputs.cache
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain.AssemblyInfo.cs
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain.csproj.CoreCompileInputs.cache
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain.dll
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\refint\Redarbor.Domain.dll
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\Redarbor.Domain.pdb
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Domain\obj\Debug\net9.0\ref\Redarbor.Domain.dll

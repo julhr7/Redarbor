@@ -1,0 +1,5 @@
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.csproj.AssemblyReference.cache
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.AssemblyInfoInputs.cache
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.AssemblyInfo.cs
+D:\_Pruebas_Evaluacion\Redarbor\Redarbor.Application\obj\Debug\net9.0\Redarbor.Application.csproj.CoreCompileInputs.cache

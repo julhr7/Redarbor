@@ -1,0 +1,6 @@
+@Redarbor.Api_HostAddress = http://localhost:5255
+
+GET {{Redarbor.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
