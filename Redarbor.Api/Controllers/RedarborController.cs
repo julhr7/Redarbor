@@ -9,7 +9,7 @@ namespace Redarbor.Api.Controllers;
 
 [Authorize]
 [ApiController]
-[Route("api/[controller]")] // Genera la ruta /api/redarbor
+[Route("api/[controller]")] 
 public class RedarborController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -19,7 +19,6 @@ public class RedarborController : ControllerBase
         _mediator = mediator;
     }
 
-    // GET /api/redarbor
     [HttpGet]
     public async Task<ActionResult<List<Employee>>> GetAll()
     {
@@ -27,7 +26,6 @@ public class RedarborController : ControllerBase
         return Ok(result);
     }
 
-    // GET /api/redarbor/{id}
     [HttpGet("{id:int}")]
     public async Task<ActionResult<Employee>> GetById(int id)
     {
@@ -38,7 +36,6 @@ public class RedarborController : ControllerBase
         return Ok(result);
     }
 
-    // POST /api/redarbor
     [HttpPost]
     public async Task<ActionResult<Employee>> Create([FromBody] CreateEmployeeCommand command)
     {
@@ -46,7 +43,6 @@ public class RedarborController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
     }
 
-    // PUT /api/redarbor/{id}
     [HttpPut("{id:int}")]
     public async Task<IActionResult> Update(int id, [FromBody] UpdateEmployeeCommand command)
     {
@@ -57,7 +53,7 @@ public class RedarborController : ControllerBase
         if (!success)
             return NotFound();
 
-        return NoContent(); // Retorna 204 según los requerimientos de la prueba
+        return NoContent();
     }
 
     // DELETE /api/redarbor/{id}
@@ -68,6 +64,6 @@ public class RedarborController : ControllerBase
         if (!success)
             return NotFound();
 
-        return NoContent(); // Retorna 204 según los requerimientos de la prueba
+        return NoContent();
     }
 }

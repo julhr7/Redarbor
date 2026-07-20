@@ -7,7 +7,6 @@ public class EmployeeValidator : AbstractValidator<Employee>
 {
     public EmployeeValidator()
     {
-        // Validaciones para campos obligatorios requeridos por la prueba
         RuleFor(x => x.CompanyId)
             .GreaterThan(0).WithMessage("CompanyId es obligatorio y debe ser mayor a 0.");
 
